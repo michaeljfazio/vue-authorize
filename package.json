@@ -1,7 +1,7 @@
 {
-  "name": "vue-authorize",
+  "name": "michaeljfazio@vue-authorize",
   "version": "1.0.0",
-  "description": "Simple Vue.js authorization library",
+  "description": "Simple Vue.js authorization library (forked from dgrubelic/vue-authorize)",
   "main": "src/index.js",
   "scripts": {
     "dev": "gulp dev"
@@ -13,18 +13,22 @@
     "authorization"
   ],
   "author": {
-    "name": "Davor Grubelic",
-    "email": "davor.grubelic@gmail.com",
-    "url": "https://dgrubelic.me"
+    "name": "Michael Fazio",
+    "email": "michaelfazio@me.com",
+    "url": "https://github.com/michaeljfazio"
   },
+  "contributors": [
+    {
+      "name": "Davor Grubelic",
+      "email": "davor.grubelic@gmail.com",
+      "url": "https://dgrubelic.me"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/dgrubelic/vue-authorize.git"
+    "url": "https://github.com/michaeljfazio/vue-authorize.git"
   },
   "license": "MIT",
-  "dependencies": {
-    "vue-authenticate": "^1.0.9"
-  },
   "devDependencies": {
     "axios": "^0.15.3",
     "babel-core": "^6.24.0",

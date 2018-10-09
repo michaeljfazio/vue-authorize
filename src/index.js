@@ -21,11 +21,7 @@ function plugin(Vue, options) {
     $authorize: {
       get() {
         if (!vueAuthorizeInstance) {
-          // vue-authenticate module not found, throw error
-          if (!this.$auth) {
-            throw new Error('Missing "vue-authenticate" library')
-          }
-          vueAuthorizeInstance = new VueAuthorize(this.$auth, options)
+          vueAuthorizeInstance = new VueAuthorize(Vue, options)
         }
         return vueAuthorizeInstance
       }
